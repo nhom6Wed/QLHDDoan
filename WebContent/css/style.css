@@ -1,0 +1,232 @@
+/*Navbar*/
+#header nav{
+	background: #FFFFFF;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+#calltoaction{
+	padding-top: 100px;
+}
+#calltoaction .jumbotron{
+	padding: 150px, 0;
+}
+/*-----------------------------------------------------------------------------------*/
+
+/*Login*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: Red;
+    color: white;
+}
+
+.imgcontainer{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    padding: 16px;
+    width: 200px;
+}
+
+.container .row{
+    text-align: center;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*SlideShow*/
+.mySlides {
+	display:none
+}
+.slideshow-container {
+  	max-width: 1000px;
+  	position: relative;
+	margin: auto;
+	padding-top: 100px;
+	background-size: cover;
+}
+.dot {
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+.active {
+    background-color: #717171;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*Content*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+table#t01 {
+    width: 100%;
+    background-color: #b4dae3;
+}
+
+input[id=searchid] {
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.panel_TrangChu{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px
+    padding-right: 10px;
+}
+
+.button-contain{
+    text-align: center;
+}
+
+/*Điều chỉnh font lớn khi trỏ vào*/
+a.ListAction:hover, a.ListAction:active 
+{
+    font-size: 130%;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*Footer*/
+#footer{
+	background: #34495E;
+	padding: 10px;
+}
+#footer a{
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
